@@ -1,6 +1,3 @@
-# Archivo de comandos de Lau Breaker
-# 
-
 {
     "Titulo": "Archivo de comandos de Lau Breaker",
     "Descripcion": "Cada línea con 'ACTUALIZAR_MEMORIA' será interpretada como una actualización de memoria.",
