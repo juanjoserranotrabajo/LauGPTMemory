@@ -1,0 +1,2 @@
+# Archivo de comandos de Lau Breaker
+# Cada línea con 'ACTUALIZAR_MEMORIA' será interpretada como una actualización de memoria.
