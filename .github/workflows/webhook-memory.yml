@@ -1,0 +1,18 @@
+name: Webhook Actualizar Memoria
+on:
+  workflow_dispatch:  # Permite activar la acción con una URL manualmente
+
+jobs:
+  update-memory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Ejecutar Script de Actualización
+        run: python actualizar_memoria.py
